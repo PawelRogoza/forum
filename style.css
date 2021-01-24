@@ -1,0 +1,278 @@
+#zawartosc {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #303C6C;
+    width: 50%;
+    min-height: 600px; 
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+header h1 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid white;
+}
+#wpisy {
+    background-color: #eafbfb;
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    overflow: auto;
+}
+.godzina {
+    color: gray;
+}
+.wpis {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 0.5px dotted gray;
+    
+}
+.wpis:hover {
+    color: green;;
+    font-size: 20px;
+}
+.wpis2 {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 0.5px dotted gray;
+}
+.wpis2:hover {
+    color: red;
+    font-size: 20px;
+}
+#formularz {
+    width: 80%;
+    margin: auto;
+    min-height: 100px;
+}
+
+#formularz input[type='text'] {
+    width: 47%;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+#button {
+    height: 35px;
+    width: 200px;
+}
+#button:hover {
+    color: #1e59daea;
+    background-color: white;
+    border-color: #1e59daea;
+    height: 45px;
+    animation-name: example;
+    animation-duration: 0.2s;
+}
+@keyframes example {
+    from {height: 35px;}
+    to {height: 45px;}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: aliceblue;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#rejestracja {
+  position: relative;
+  margin: 5% auto;
+  width: 350px;
+  height: 600px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#login {
+    position: relative;
+    margin: 5% auto;
+    width: 390px;
+    height: 350px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 700px;
+}
+
+.profile {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 390px;
+    height: 700px;
+  }
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+a {
+    margin-top: 28px;
+    width: 190px;
+    height: 52px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: #1e59daea;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+        opacity: 0.8;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        transition: 0.1s ease;
+}
+
+input[type="email"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+  }
+
+input[type="email"]:focus {
+    border-bottom: 2px solid#1e59daea;
+    color: #1e59daea;
+    transition: 0.2s ease;
+  }
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #1e59daea;
+  color: #1e59daea;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #1e59daea;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+#logoutForm {
+    position: absolute;
+    bottom: 50px;
+    right: 90px;
+}
+
+#home {
+    margin-top: 30px;
+    
+}
+
+.passwordChange {
+   margin-top:5px !important;
+   margin-bottom: 20px !important;
+}
+
+.emailChange {
+    margin-top:5px !important;
+    margin-bottom: 20px !important;
+}
+
+.deleteAcc {
+    margin-top:5px !important;
+    margin-bottom: 20px !important;
+}
+
+#naglowek {
+    text-align: center;
+    text-transform: uppercase;
+}
